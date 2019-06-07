@@ -7,7 +7,7 @@ use swift write list and item detail
 # Platforms Supported
  Ios
 # Getting Started
-download this project -> xcode load this project
+download this project -> xcode load this project -> "Embedded Binaries" add "PagingMenuController.framework" -> run
 
 # License
 MIT
