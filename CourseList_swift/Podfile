@@ -1,0 +1,22 @@
+# platform :ios, '9.0'
+
+target 'CourseList_swift' do
+  use_frameworks!
+
+  target 'CourseList_swiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CourseList_swiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'AFNetworking'
+
+
+end

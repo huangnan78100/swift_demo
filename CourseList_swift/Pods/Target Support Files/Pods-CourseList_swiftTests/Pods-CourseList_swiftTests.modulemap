@@ -1,0 +1,6 @@
+framework module Pods_CourseList_swiftTests {
+  umbrella header "Pods-CourseList_swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
