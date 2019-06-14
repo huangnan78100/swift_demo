@@ -17,6 +17,6 @@ pod 'MJRefresh'
 pod 'SDWebImage'
 pod 'SVProgressHUD'
 pod 'AFNetworking'
-
+pod 'PagingMenuController'
 
 end

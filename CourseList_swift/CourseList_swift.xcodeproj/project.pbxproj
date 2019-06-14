@@ -18,7 +18,6 @@
 		5D32A3C022A7A1FE00C4FD53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32A3BF22A7A1FE00C4FD53 /* HomeViewController.swift */; };
 		5D32A3C222A7A97800C4FD53 /* CourseNavigaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32A3C122A7A97800C4FD53 /* CourseNavigaController.swift */; };
 		5D32A3C422A7AA9900C4FD53 /* CoursePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32A3C322A7AA9900C4FD53 /* CoursePageViewController.swift */; };
-		5D32A3CC22A7B5F000C4FD53 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D32A3CA22A7B5DB00C4FD53 /* PagingMenuController.framework */; };
 		5D32A3CE22A7B9CA00C4FD53 /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32A3CD22A7B9CA00C4FD53 /* CourseListViewController.swift */; };
 		5D32A3D822A8AB0100C4FD53 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32A3D622A8AB0100C4FD53 /* CourseTableViewCell.swift */; };
 		5D32A3D922A8AB0100C4FD53 /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D32A3D722A8AB0100C4FD53 /* CourseTableViewCell.xib */; };
@@ -51,13 +50,6 @@
 			remoteGlobalIDString = 5D32A38522A756E400C4FD53;
 			remoteInfo = CourseList_swift;
 		};
-		5D32A3C922A7B5DB00C4FD53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D32A3C522A7B5DA00C4FD53 /* PagingMenuController.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ECE530671B6DEB18001CF201;
-			remoteInfo = PagingMenuController;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -79,7 +71,6 @@
 		5D32A3BF22A7A1FE00C4FD53 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5D32A3C122A7A97800C4FD53 /* CourseNavigaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseNavigaController.swift; sourceTree = "<group>"; };
 		5D32A3C322A7AA9900C4FD53 /* CoursePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePageViewController.swift; sourceTree = "<group>"; };
-		5D32A3C522A7B5DA00C4FD53 /* PagingMenuController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PagingMenuController.xcodeproj; path = "../../../../Downloads/PagingMenuController-master/PagingMenuController.xcodeproj"; sourceTree = "<group>"; };
 		5D32A3CD22A7B9CA00C4FD53 /* CourseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
 		5D32A3D622A8AB0100C4FD53 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
 		5D32A3D722A8AB0100C4FD53 /* CourseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
@@ -107,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D32A3CC22A7B5F000C4FD53 /* PagingMenuController.framework in Frameworks */,
 				C130187D5884FAD9DF21F7E4 /* Pods_CourseList_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +124,6 @@
 		5D32A37D22A756E400C4FD53 = {
 			isa = PBXGroup;
 			children = (
-				5D32A3C522A7B5DA00C4FD53 /* PagingMenuController.xcodeproj */,
 				5D32A38822A756E400C4FD53 /* CourseList_swift */,
 				5D32A39D22A756E600C4FD53 /* CourseList_swiftTests */,
 				5D32A3A822A756E600C4FD53 /* CourseList_swiftUITests */,
@@ -184,14 +173,6 @@
 				5D32A3AB22A756E600C4FD53 /* Info.plist */,
 			);
 			path = CourseList_swiftUITests;
-			sourceTree = "<group>";
-		};
-		5D32A3C622A7B5DA00C4FD53 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D32A3CA22A7B5DB00C4FD53 /* PagingMenuController.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5D32A3CB22A7B5F000C4FD53 /* Frameworks */ = {
@@ -358,12 +339,6 @@
 			mainGroup = 5D32A37D22A756E400C4FD53;
 			productRefGroup = 5D32A38722A756E400C4FD53 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5D32A3C622A7B5DA00C4FD53 /* Products */;
-					ProjectRef = 5D32A3C522A7B5DA00C4FD53 /* PagingMenuController.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5D32A38522A756E400C4FD53 /* CourseList_swift */,
@@ -372,16 +347,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5D32A3CA22A7B5DB00C4FD53 /* PagingMenuController.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PagingMenuController.framework;
-			remoteRef = 5D32A3C922A7B5DB00C4FD53 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5D32A38422A756E400C4FD53 /* Resources */ = {
