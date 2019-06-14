@@ -7,7 +7,7 @@ use swift write list and item detail
 # Platforms Supported
  Ios
 # Getting Started
-download this project -> xcode load this project -> "Embedded Binaries" add "PagingMenuController.framework" -> run
+download this project -> open "CourseList_swift/CourseList_swift.xcworkspace" -> run
 
 # License
 MIT
